@@ -753,6 +753,10 @@ body {
     box-shadow: 0 4px 15px rgba(0, 102, 204, 0.08);
     border-left: 4px solid var(--primary-color);
     transition: all 0.3s ease;
+    min-height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .contact-item:hover {
@@ -769,6 +773,7 @@ body {
 .contact-item p {
     color: var(--text-light);
     line-height: 1.8;
+    margin: 0;
 }
 
 /* Footer */
